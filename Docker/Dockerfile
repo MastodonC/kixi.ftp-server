@@ -32,7 +32,7 @@ RUN apt-mark hold pure-ftpd pure-ftpd-common
 RUN groupadd ftpgroup
 RUN useradd -g ftpgroup -d /dev/null -s /etc ftpuser
 
-RUN (echo bob; echo bob) | pure-pw useradd bob -u ftpuser -d /home/ftpusers/bob
+RUN (echo sample; echo sample) | pure-pw useradd sample -u ftpuser -d /home/ftpusers/sample
 RUN pure-pw mkdb
 
 ################################################
