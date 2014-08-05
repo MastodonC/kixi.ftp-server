@@ -17,6 +17,10 @@ This project contains the files needed to create a Docker image through Vagrant 
 + The first time it is run, this will download a base image of Ubuntu 14.04 from Docker and then install the required packages on the image. So it will be slow the first time, but after that it will be a lot quicker.
 + You will now have all the services required running in a virtual machine.
 
++ To log in to the FTP server use the following details:
++ Username: sample
++ Password: sample
+
 If an error occurs, run ``docker logs FTP-SERVER`` for more detailed error messages.
 
 ## License
